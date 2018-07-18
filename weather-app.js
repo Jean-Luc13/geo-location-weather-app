@@ -80,7 +80,7 @@ function showWeather(lat, long) {
   script.type = "text/javascript";
   script.src = url;
   document.getElementsByTagName("head")[0].appendChild(script);
-  displayWeather(object)
+  displayWeather(object);
 }
 
 var object;
